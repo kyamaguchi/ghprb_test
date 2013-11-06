@@ -5,6 +5,10 @@ class SamplesControllerTest < ActionController::TestCase
     @sample = samples(:one)
   end
 
+  test "false" do
+    assert false
+  end
+
   test "should get index" do
     get :index
     assert_response :success
